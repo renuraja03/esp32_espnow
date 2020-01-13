@@ -59,6 +59,13 @@ This directory contains esp32 slave code.
     idf.py -p COMx flash
     Where x is com number in windows
 
+Test result:
+Slave to master message:
+![Image description]https://github.com/renuraja03/esp32_espnow/blob/master/Test_Result/slave%20to%20master%20espnow.PNG
+
+Slave sends to MQTT broker: i have used Rpi as MQTT broker
+![Image description]https://github.com/renuraja03/esp32_espnow/blob/master/Test_Result/MasterTimeout_MQTTStarts.PNG
+
 
 
 
